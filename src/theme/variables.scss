@@ -2,6 +2,25 @@
 // http://ionicframework.com/docs/theming/
 
 /** Ionic CSS Variables **/
+
+$colors: (
+  primary: #6495ed,
+secondary: #435d8c,
+danger:#f53d3d,
+light: #fff,
+dark: #222
+);
+//Top toolbar
+$toolbar-md-background: color($colors, secondary);
+
+//bottom toolbar
+$tabs-md-background: color($colors, secondary);
+$tabs-md-tab-color-active: color($colors, light);
+$tabs-md-tab-color: color($colors, light);
+$tabs-md-tab-text-color: color($colors, light);
+
+$list-md-background-color: color($colors, secondary);
+$list-md-text-color: color($colors, light);
 :root {
   /** primary **/
   --ion-color-primary: #3880ff;
