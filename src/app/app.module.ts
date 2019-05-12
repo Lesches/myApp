@@ -10,6 +10,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { IonicStorageModule } from '@ionic/storage';
 import {SettingsPage} from './pages/settings/settings.page';
+import {WeatherService} from './weather.service';
 
 @NgModule({
   declarations: [AppComponent, SettingsPage],
@@ -18,6 +19,7 @@ import {SettingsPage} from './pages/settings/settings.page';
   providers: [
     StatusBar,
     SplashScreen,
+    , WeatherService,
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
   ],
   bootstrap: [AppComponent]
