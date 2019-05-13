@@ -10,7 +10,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { IonicStorageModule } from '@ionic/storage';
 import {SettingsPage} from './pages/settings/settings.page';
-import {WeatherService} from './weather.service';
+import {WeatherService} from './services/weather.service';
 
 @NgModule({
   declarations: [AppComponent, SettingsPage],

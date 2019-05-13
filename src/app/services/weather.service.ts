@@ -17,6 +17,6 @@ export class WeatherService {
   }
 
   getWeather(latitude, longtitude) {
-    return this.http.get(this.url + '/' + latitude + ', ' + longtitude).pipe(map(res => res));
+    return this.http.get(this.url + '/' + latitude + ',' + longtitude).pipe(map(res => res));
   }
 }
