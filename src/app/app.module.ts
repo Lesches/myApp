@@ -15,7 +15,7 @@ import {WeatherService} from './services/weather.service';
 @NgModule({
   declarations: [AppComponent, SettingsPage],
   entryComponents: [SettingsPage],
-  imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule, HttpClientModule, IonicStorageModule],
+  imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule, HttpClientModule, IonicStorageModule.forRoot()],
   providers: [
     StatusBar,
     SplashScreen,
